@@ -1,0 +1,69 @@
+*{
+	font-family: Avenir,Helvetica,Arial,sans-serif;
+}
+#frameworkContainer>div:nth-child(1){
+	height:6%;
+	display: flex;
+	margin: auto;
+	padding-top:10px;
+	border-left:1px solid #E1E4E6;
+	border-right:1px solid #E1E4E6;
+	border-top:1px solid #E1E4E6;
+}
+#frameworkContainer>div:nth-child(1)>img:nth-child(1){
+	height:66%;
+	width:90%;
+}
+#frameworkContainer>div:nth-child(1)>span{
+	margin-top: 12px;
+	margin-left:10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#frameworkContainer>div:nth-child(2){
+	height:1%;
+	background:linear-gradient(to top,#E1E4E6,#F3F3F3);
+}
+.gradient_down{
+	height:1%;
+	background:linear-gradient(to top,#F3F3F3,#E1E4E6);
+}
+#frameworkContainer>div:nth-child(3){
+	height:90%;
+	background: #F3F3F3;
+}
+#frameworkContainer>div:nth-child(3)>div{
+	width: 90%;
+	margin: auto;
+	display: flex;
+}
+.dialogBack_2{
+	position: absolute;
+	z-index: 1;
+	background: #fff;
+	width:150px;
+	height:100px;
+	display: none;
+	box-shadow: 0 3px 5px #000;
+}
+.dialogBack_2>div{
+	width:100%;
+	height:40%;
+	text-align: center;
+	line-height: 40px;
+}
+.dialogBack_2>div:nth-child(1){
+	margin-top:10px;
+}
+.dialogBack_2>div:hover{
+	background: #EFEFEF;
+}
+.dialogBack_2>div>span:nth-child(2){
+	margin-left: 10px;
+}
+.pageFoot{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
